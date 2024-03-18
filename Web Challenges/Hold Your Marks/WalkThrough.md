@@ -2,8 +2,10 @@
 
 ## Description
 
-Experienced in the world of bug bounties, you stumble upon a markdown editor during your exploits. Your objective: infiltrate the server's defenses to access a concealed file, hidden away from external access. Can you leverage your skills to navigate through the editor's intricacies and uncover the secrets that lie within the server's depths?
+Experienced in the world of bug bounties, you stumble upon a markdown editor during your exploits. Your objective: infiltrate the server's defenses to access a concealed file, hidden away from external access. Can you leverage your skills to navigate through the editor's intricacies and uncover the secrets that lie within the server's depths? 
+<br><br>
 ![ScreenShot](https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Hold%20Your%20Marks/Images/hold-ur-marks.jpg)
+<br>
 ## Solution
 
 1. The page opens with 2 options for user input: One is a URL input to fetch markdown and one is a markdown editor <br><br> ![ScreenShot](https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Hold%20Your%20Marks/Images/HYM-2.jpg)
@@ -28,7 +30,7 @@ if __name__ == '__main__':
 ```
 8. This code was hosted on python server and that is connected to my NGROK server <br><br> ![ScreenShot](https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Hold%20Your%20Marks/Images/HYM-4.jpg)
 9. so any request came through my ngrok server it will redirect to thier localhost/flag.! <br><br> ![ScreenShot](https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Hold%20Your%20Marks/Images/HYM-5.jpg)
-10. That's it.. LET'S GO.
+10. That's it..
 11. Paste the ngrok link and BOOMMM.. we got the flag.!
 <br>
 <br>
