@@ -16,8 +16,9 @@ The Pentathon 2024 CTF contest has a format was Jeopardy game. Aspiring cybersec
 | Web & API         | Medium     | ArmyStation              | error     | 1000   |
 | Web & API         | Hard       | SSB - Super Secure Bank  | Solved    | 864    |
 | Reversing         | Easy       | Byte By Byte             | Solved    | 50     |
+| Reversing         | Easy       | Meltdown Averted         | error     | 50     |
 | Reversing         | Medium     | Go Bank                  | Solved    | 424    |
-| Reversing         | Hard       | License Check            | Solved    | 1000   |
+| Reversing         | Hard       | License Check            | error     | 1000   |
 | Miscellaneous     | Beginner   | Welcome                  | Solved    | 1      |
 | Miscellaneous     | Beginner   | Welcome again?           | Solved    | 100    |
 | Pwn               | Easy       | Overflow                 | Solved    | 50     |
