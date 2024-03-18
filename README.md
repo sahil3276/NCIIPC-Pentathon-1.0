@@ -6,12 +6,14 @@ The Pentathon 2024 CTF contest has a format was Jeopardy game. Aspiring cybersec
 |-------------------|------------|--------------------------|-----------|--------|
 | Forensics         | Easy       | Data Divergence          | Solved    | 50     |
 | Forensics         | Easy       | Echoes of the Unseen     | Solved    | 50     |
+| Forensics         | Easy       | schmerz-1                | Solved    | 335    |
 | Forensics         | Medium     | schmerz-2                | Solved    | 718    |
-| Forensics         | Hard       | schmerz-3                | Attempted | 999    |
+| Forensics         | Hard       | schmerz-3                | error     | 999    |
+| Forensics         | Hard       | schmerz-4                | error     | 999    |
 | Web & API         | Easy       | Health care              | Solved    | 50     |
 | Web & API         | Easy       | Local Bank               | Solved    | 100    |
 | Web & API         | Medium     | USB - Ultra Secure Bank  | Solved    | 632    |
-| Web & API         | Medium     | ArmyStation              | Solved    | 1000   |
+| Web & API         | Medium     | ArmyStation              | error     | 1000   |
 | Web & API         | Hard       | SSB - Super Secure Bank  | Solved    | 864    |
 | Reversing         | Easy       | Byte By Byte             | Solved    | 50     |
 | Reversing         | Medium     | Go Bank                  | Solved    | 424    |
@@ -20,8 +22,8 @@ The Pentathon 2024 CTF contest has a format was Jeopardy game. Aspiring cybersec
 | Miscellaneous     | Beginner   | Welcome again?           | Solved    | 100    |
 | Pwn               | Easy       | Overflow                 | Solved    | 50     |
 | Pwn               | Medium     | bof                      | Solved    | 439    |
-| Pentest           | Easy       | Kermit                   | Attempted | 999    |
-| Pentest           | Medium     | Git-Gambit               | Attempted | 942    |
+| Pentest           | Easy       | Kermit                   | error     | 999    |
+| Pentest           | Medium     | Git-Gambit               | error     | 942    |
 | OT                | Easy       | L0g1c_sn1ff              | Solved    | 100    |
 | OT                | Medium     | M0dBu5                   | Solved    | 100    |
 | Android           | Easy       | vBank 2                  | Solved    | 100    |
