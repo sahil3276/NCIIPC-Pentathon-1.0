@@ -19,8 +19,8 @@ The Pentathon 2024 CTF contest has a format was Jeopardy game. Aspiring cybersec
 | Miscellaneous     | Beginner   | Welcome again?           | Solved    | 100    |
 | Pwn               | Easy       | Overflow                 | Solved    | 50     |
 | Pwn               | Medium     | bof                      | Solved    | 439    |
-| Pentest           | Easy       | Kermit                   | Solved    | 999    |
-| Pentest           | Medium     | Git-Gambit               | Solved    | 942    |
+| Pentest           | Easy       | Kermit                   | Attempted | 999    |
+| Pentest           | Medium     | Git-Gambit               | Attempted | 942    |
 | OT                | Easy       | L0g1c_sn1ff              | Solved    | 100    |
 | OT                | Medium     | M0dBu5                   | Solved    | 100    |
 | Android           | Easy       | vBank 2                  | Solved    | 100    |
