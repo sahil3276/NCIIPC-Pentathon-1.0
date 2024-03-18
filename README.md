@@ -1,6 +1,7 @@
 # Pentathon 2024 CTF Writeup (Pentathon-1.0)
 The Pentathon 2024 CTF contest has a format was Jeopardy game. Aspiring cybersecurity professionals from all over India can make a name by showcasing their skills in diverse cybersecurity domains. This writeup post will focus on some of the challenges that show up in the Qualification round of the Pentathon 2024 CTF solved by our Team. I have also added points after degrading.
 
+
 | Category          | Difficulty | Challenge                | Status    | Points |
 |-------------------|------------|--------------------------|-----------|--------|
 | Forensics         | Easy       | Data Divergence          | Solved    | 50     |
