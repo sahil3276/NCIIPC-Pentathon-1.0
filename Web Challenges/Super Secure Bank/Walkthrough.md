@@ -3,13 +3,15 @@ Description
 
 In this challenge, you'll put your code-breaking skills to the test! The once-impregnable Super Secure Bank has been hacked, its data encrypted. Your task is to crack the code, recover the data, and capture the hidden flag.
 
-Image of the hacked Super Secure Bank website: https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Super%20Secure%20Bank/Images/base.jpg
+Image of the hacked Super Secure Bank website:  ![ScreenShot](https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Super%20Secure%20Bank/Images/1.jpg)
 
 1. Upon reading this code, we can assume three things:
 
   1. For each character of the func string XORed with our username, the variable buf adds a new char to itself.
   2. At the end, it will try to run the result of buf as actual code with eval(). We can tell that it will probably run a check and send us to the flag.
   3. The buf variable might have the text “password” since we don’t use the password in the main loop code
+<br></br>
+![ScreenShot](https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Super%20Secure%20Bank/Images/2.jpg)
 
 2. JavaScript Console Strategy:
 ```
@@ -20,6 +22,7 @@ Image of the hacked Super Secure Bank website: https://github.com/sahil3276/NCII
       return String.fromCharCode(ori_chr.charCodeAt() ^ dst_chr.charCodeAt());
     }
 ```
+
 
 Use code with caution.
 
@@ -34,7 +37,8 @@ Use code with caution.
 
     The eval(buf) statement likely holds a password check.
     Examine the decrypted code to reveal the password.
-
+<br></br>
+![ScreenShot](https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Super%20Secure%20Bank/Images/3.jpg)
 4. Retrieve the Flag
 
         The results will give us all the possible usernames (even those with non-printable charcodes)
@@ -42,8 +46,10 @@ Use code with caution.
         When testing all our usernames, we run the same code that builds the buf variable, but we do 
         not run eval() but instead print buf and check what result we get for each username we use.
         When looking at all the possibilities, one stands out
+
+<br></br>
+![ScreenShot](https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Super%20Secure%20Bank/Images/5.jpg)
    AND HERE IS THE FLAG.
                   flag{586f7249734e6f74536f6f533363757233}
 
-Image of the username/password login screen: https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Local%20Bank/Images/2.jpg
-Image of the revealed flag: https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Local%20Bank/Images/3.jpg
+Thank you.
