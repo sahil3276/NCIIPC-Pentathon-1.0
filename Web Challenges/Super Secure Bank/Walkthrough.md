@@ -10,8 +10,6 @@ Image of the hacked Super Secure Bank website:  ![ScreenShot](https://github.com
   1. For each character of the func string XORed with our username, the variable buf adds a new char to itself.
   2. At the end, it will try to run the result of buf as actual code with eval(). We can tell that it will probably run a check and send us to the flag.
   3. The buf variable might have the text “password” since we don’t use the password in the main loop code
-<br></br>
-![ScreenShot](https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Super%20Secure%20Bank/Images/2.jpg)
 
 2. JavaScript Console Strategy:
 ```
@@ -22,7 +20,8 @@ Image of the hacked Super Secure Bank website:  ![ScreenShot](https://github.com
       return String.fromCharCode(ori_chr.charCodeAt() ^ dst_chr.charCodeAt());
     }
 ```
-
+<br></br>
+![ScreenShot](https://github.com/sahil3276/NCIIPC-W3B/blob/main/Web%20Challenges/Super%20Secure%20Bank/Images/2.jpg)
 
 Use code with caution.
 
